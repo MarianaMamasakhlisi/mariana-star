@@ -1,0 +1,59 @@
+hml{
+    font-family: sans-serif;
+}
+
+#text{
+    color:aqua;
+    font-size:200px;
+    text-align: center;
+}
+.box{
+    width: 40px;
+    height: 60px;
+    background:blue;
+    border-radius: 20px;
+}
+#foto img{
+    margin-top: 100px;
+    
+    
+}
+#animbox{
+    width: 400px;
+    height: 200px;
+    background: purple;
+}
+#animbox:hover{
+    width: 600px;
+    transition:.5s;
+    background: red;
+    height: 40px;
+}
+#button{
+    width: 200px;
+    font-size: 40px;
+    height: 100px;
+    background-color: rosybrown;
+    border-radius: 5px;
+}
+#button:hover{
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+#button2{
+    width: 200px;
+    font-size: 40px;
+    height: 100px;
+    background-color: blueviolet;
+    color: yellow;
+    border-radius: 5px;
+}
+#button2:hover{
+    background-color: aqua;
+    color:black;
+    transition:.5s;
+    cursor:pointer;
+    width: 400px;
+    height: 200px;
+}
